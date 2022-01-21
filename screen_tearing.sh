@@ -8,7 +8,6 @@
 #
 # Hence, normally I create it with "sudo nano /usr/share/X11/xorg.conf.d/20-intel.conf"
 # and copy/paste the code below
-#test change
 
 Section "Device"
   Identifier  "Intel Graphics"
