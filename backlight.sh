@@ -19,3 +19,5 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 -su
 grub2-mkconfig
 # or use Yast Boot Loader (GUI)
+#
+# on Lubuntu instead of lxqt-config-brightness -d [or -i], use lxqt-backlight_backend --inc [or --dec], commands in the Shortcut Keys 
