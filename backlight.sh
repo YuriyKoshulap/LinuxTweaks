@@ -1,4 +1,4 @@
-# tested on Dell Inspiron 4010 with Intel Core HD Graphics with "intel_backlight"
+# tested on Dell Inspiron 14R N4010 with Intel Core HD Graphics with "intel_backlight"
 # depending of distro, different stages of this solution sloved the problem
 # therefore, follow the steps from top to bottom, until the problem solved
 
@@ -6,7 +6,7 @@
 ls /sys/class/backlight/
 # returns something else than "acpi_video0", enable the backlight by disablin acpi_backlight in grub:
 
-# in many distros these 2 steps were enough:
+# in many distros these 2-3 steps were enough:
 # 1. add acpi_backlight=none to GRUB_CMDLINE_LINUX_DEFAULT="" in /etc/default/grub
 sudo nano /etc/default/grub
 # add acpi_backlight=none, save (Ctrl+o) and exit (Ctrl+x)
