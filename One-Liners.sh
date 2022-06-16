@@ -18,3 +18,11 @@ leave +15
 
 # send an http HEAD request w/curl
 curl -I http://localhost
+
+############
+# pitfalls #
+############
+# Whitespace matters when assigning variables
+foo = 'bar' #incorrect
+foo= 'bar' #incorrect
+foo='bar' #correct
