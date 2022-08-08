@@ -1,9 +1,9 @@
-# can't log in as the screen seems to crash for 0.5s, after this the login screen reappears - loop
+# Problem: upon installing Fedora, the login screen gets into a loop after entering the valid password
 # 1. log in to tty (At the login screen, press Ctrl + Alt + F5)
 # 2. to check, run:
-ausearch -m AVC
+[sudo] ausearch -m AVC
 # 3. if it returns among others: "unlabeled_t", run the following command as root:
-/sbin/restorecon -v /home/[username]
+[sudo] /sbin/restorecon -v /home/[username]
 #
 #
 #
