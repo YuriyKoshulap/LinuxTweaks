@@ -4,6 +4,9 @@ sudo !!
 # Restore a broken terminal
 reset
 
+# become root w.o. being a root group member
+su root
+
 # My IP address
 curl ifconfig.me
 
