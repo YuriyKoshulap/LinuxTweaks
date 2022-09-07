@@ -1,3 +1,8 @@
+################## Zypper area###################
+sudo zypper rm -u foo
+zypper packages --unneeded --- (apt autoremove alternative)
+#################################################
+
 # Run the last command as root
 sudo !!
 
