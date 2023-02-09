@@ -1,7 +1,7 @@
 #!/bin/bash
 # This is an example of a File Header comments in Bash
 #
-# Copyright 2022 Yuriy Koshulap
+# Copyright 2022 (e.g.) Yuriy Koshulap
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
