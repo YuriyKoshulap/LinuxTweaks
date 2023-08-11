@@ -3,6 +3,11 @@ sudo zypper rm -u foo
 zypper packages --unneeded --- (apt autoremove alternative)
 #################################################
 
+# List peripherials
+lsblk  # List information about block devices, e.g. USB.
+lspci  # List info about PCI buses and devices
+dmesg  # Display or control the kernel ring buffer.
+
 # Run the last command as root
 sudo !!
 
