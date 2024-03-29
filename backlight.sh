@@ -17,10 +17,10 @@ sudo update-grub
 #
 # updating grub on other distros:
 # on Arch/Manjaro: sudo grub-mkconfig -o /boot/grub/grub.cfg
-# on OpenSuse: grub2-mkconfig
+# on OpenSuse: sudo grub2-mkconfig
 # or use Yast Boot Loader (GUI)
 # 
-# 3. (for Lubuntu only) change Shortcut Keys command from lxqt-config-brightness -d [or -i] to:
+# 3. (for LXQt only) change Shortcut Keys command from lxqt-config-brightness -d [or -i] to:
 lxqt-backlight_backend --inc [or --dec]
 
 
