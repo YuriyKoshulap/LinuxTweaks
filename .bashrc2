@@ -1,0 +1,7 @@
+PS1="\[\e[0;32m\]\u@\h:\w\$ \[\e[m\]"
+
+# Always use color and put directories first
+alias ls='ls --color=auto --group-directories-first'
+
+# LS_COLORS: bright yellow directories, regular files blue, everything else default
+export LS_COLORS="di=1;33:fi=36:ln=0:pi=0:so=0:bd=0:cd=0:ex=0"
