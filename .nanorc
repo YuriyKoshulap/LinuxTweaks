@@ -1,0 +1,19 @@
+# Include all standard syntax highlighting files
+include "/usr/share/nano/*.nanorc"
+
+# Enable all available syntax highlighting rules
+include "/usr/share/nano/*.nanorc"
+
+# --- Quality of Life Settings ---
+
+# Display line numbers
+set linenumbers
+
+# Don't hard-wrap lines, use soft-wrap
+set softwrap
+
+# Auto-indent new lines
+set autoindent
+
+# Convert tabs to spaces
+set tabstospaces
