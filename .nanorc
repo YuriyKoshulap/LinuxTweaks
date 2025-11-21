@@ -17,3 +17,6 @@ set autoindent
 
 # Convert tabs to spaces
 set tabstospaces
+
+# to make change system-wide run:
+# sudo cp ~/.nanorc /root/
