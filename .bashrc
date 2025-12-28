@@ -7,6 +7,7 @@ alias ls='ls --color=auto --group-directories-first'
 export LS_COLORS="di=1;33:fi=36:ln=0:pi=0:so=0:bd=0:cd=0:ex=0"
 
 #########################
+
 ### Make nano editor by defaul
 export EDITOR=nano
 export VISUAL=nano
@@ -14,6 +15,8 @@ export SUDO_EDITOR=nano
 
 ### !!!! apply !!! by running
 # source ~/.bashrc
+
+#########################
 
 ### Alternative color config
 ## green alias in bash
