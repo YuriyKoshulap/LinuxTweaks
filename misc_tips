@@ -1,0 +1,20 @@
+### Display asterisks **** when entering sudo password
+# run
+
+sudo visudo
+
+# find line starting Defaults env_reset
+# add ", pwfeedback", so that it looks:
+# Defaults env_reset, pwfeedback
+
+# if sudo gets opened in vim,
+# change it to nano by running
+
+echo 'export SUDO_EDITOR=nano' >> ~/.bashrc
+
+## in addition run these two lines to make nano an editor by default for all cases
+# echo 'export EDITOR=nano' >> ~/.bashrc
+# echo 'export VISUAL=nano' >> ~/.bashrc
+
+# apply it
+source ~/.bashrc
