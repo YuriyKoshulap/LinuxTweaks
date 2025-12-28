@@ -1,7 +1,7 @@
 /* Keep speaker icon visible but disable click-to-mute in Firefox.
 In FFox about:config set toolkit.legacyUserProfileCustomizations.stylesheets = true
 
-create file userCrome.css in the crome subfolder of the default profile's Root Directory.
+create file userChrome.css in the crome subfolder of the default profile's Root Directory.
 The path to be found in about:profiles - "Profile: default-release; This is the profile in use and it cannot be deleted."
 Something like /home/{username}/.mozilla/firefox/dssznlkl.default-esr(or xyz.default-release)/
 
