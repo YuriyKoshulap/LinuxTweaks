@@ -1,12 +1,11 @@
 /* Keep speaker icon visible but disable click-to-mute in Firefox.
 In FFox about:config set toolkit.legacyUserProfileCustomizations.stylesheets = true
 
-create file userChrome.css in the crome subfolder of the default profile's Root Directory.
+create {FireFox default profile root directory}/chrome/userChrome.css
 The path to be found in about:profiles - "Profile: default-release; This is the profile in use and it cannot be deleted."
 Something like /home/{username}/.mozilla/firefox/dssznlkl.default-esr(or xyz.default-release)/
 
-Create there  a folder "crome".
-There create userChrome.css with the code bleow */
+userChrome.css content: */
 
 .tab-icon-overlay[soundplaying] {
     pointer-events: none !important;
