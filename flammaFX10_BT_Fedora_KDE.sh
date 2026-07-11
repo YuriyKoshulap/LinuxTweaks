@@ -2,12 +2,12 @@
 # Instead it shows Flamma's FX10 Bluetooth Low Energy (BLE) clearly (as "FX10"). The BT Classic (BR/EDR) is shown as "raw" BT address, like 0C:F3:7A:8B:AB:6B
 # Run script below in the console to find 2 exact "raw" address ("Lines mentioning FX10"), and the candidates ("Strong nearby candidate devices seen while FX10 was ON") and follow the prompt.
 # Check both with:
-# bluetoothctl info [address] (like 4A:F1:7B:9D:AB:6B)
+# bluetoothctl info [address] (e.g. 4A:F1:7B:9D:AB:6B)
 # The correct BT address should have "Icon: audio-headset" line (and perhaps Class: 0x00340404)
-# Pair the correct device with 3 commands, like:
-# bluetoothctl pair 5A:E1:7B:3D:AB:3B
-# bluetoothctl trust 5A:E1:7B:3D:AB:3B
-# bluetoothctl connect 5A:E1:7B:3D:AB:3B
+# Pair the correct device with 3 commands:
+# bluetoothctl pair [address] (e.g. 5A:E1:7B:3D:AB:3B)
+# bluetoothctl trust [address]
+# bluetoothctl connect [address]
 # If there are no 2 clear "winners", check the "Strong nearby candidate devices" with "bluetoothctl info [address]" for "Icon: audio-headset"
 # If connected to a wrong device, disconnect it with:
 # bluetoothctl remove [address]
