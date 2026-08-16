@@ -4,7 +4,7 @@ In FFox about:config set toolkit.legacyUserProfileCustomizations.stylesheets = t
 
 create {FireFox default profile root directory}/chrome/userChrome.css
 The path to be found in about:profiles - "Profile: default-release; This is the profile in use and it cannot be deleted."
-Something like /home/{username}/.mozilla/firefox/dssznlkl.default-esr(or xyz.default-release)/chrome/userChrome.css
+Something like /home/{username}/.config/mozilla/firefox/rstuvwxyz.default-release(or rstuvwxyz.default-esr)/chrome/userChrome.css
 */
 
 .tab-icon-overlay[soundplaying] {
