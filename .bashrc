@@ -6,7 +6,7 @@ alias ls='ls --color=auto --group-directories-first'
 # LS_COLORS: bright yellow directories, regular files blue, everything else default
 export LS_COLORS="di=1;33:fi=36:ln=0:pi=0:so=0:bd=0:cd=0:ex=0"
 
-#########################
+##############
 
 ### Make nano editor by defaul
 export EDITOR=nano
@@ -16,8 +16,14 @@ export SUDO_EDITOR=nano
 ### !!!! apply !!! by running
 # source ~/.bashrc
 
-#########################
+##############
+# integration script for fzf console history search tool
+# prior to usage, make sure
+# sudo dnf install fzf bash-completion
 
+eval "$(fzf --bash)"
+
+##############
 ### Alternative color config
 ## green alias in bash
 ## tested on xfce4-terminal 1.0.0
@@ -30,13 +36,13 @@ export SUDO_EDITOR=nano
 ## to change them:
 ## chmod 644 .bashrc
 
-########################
+##############
 
 ### To change editor for security tools (like visudo) to nano run these two in terminal
 # echo 'export EDITOR=nano' >> ~/.bashrc
 # source ~/.bashrc
 
-########################
+##############
 
 ### For Debian and its derivatives: Custom apt shortcuts
 ## alias changing apt's "isntall" to "in", "search" to "se", "remove" to "rm", "autoremove" to "arm", "update && upgrade" to "up" and "full-upgrade" to "dup"
@@ -51,3 +57,6 @@ export SUDO_EDITOR=nano
 #        *)    sudo apt "$@";;
 #    esac
 # }
+
+export DEBUGINFOD_CACHE_CLEAN_INTERVAL=30
+. "$HOME/.cargo/env"
