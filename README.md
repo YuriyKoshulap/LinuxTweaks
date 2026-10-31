@@ -1,4 +1,3 @@
 # LinuxTweaks
 
-Linux workstation setup, configuration and automation scripts developed through daily Fedora/Linux use.
-
+Practical Linux configuration, troubleshooting and automation scripts from daily Fedora/Linux use.
